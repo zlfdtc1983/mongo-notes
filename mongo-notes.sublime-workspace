@@ -1,0 +1,318 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin	margin-top: length"
+			],
+			[
+				"mar",
+				"margin	margin: T R B L"
+			],
+			[
+				"dis",
+				"display	display: table-types"
+			],
+			[
+				"bor",
+				"border	border: size style color"
+			],
+			[
+				"marg",
+				"margin	margin-top: length"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"text",
+				"text	text-align: left/center/right"
+			],
+			[
+				"fl",
+				"float	float: left/right/none"
+			],
+			[
+				"flo",
+				"flowt-left"
+			],
+			[
+				"back",
+				"background	background-color: rgb"
+			],
+			[
+				"margin",
+				"margin	margin: T R B L"
+			],
+			[
+				"Obje",
+				"ObjectID"
+			],
+			[
+				"f",
+				"features"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"l",
+				"load"
+			],
+			[
+				"load",
+				"loadedOn"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"file": "/Volumes/PostgreSQL 9.1.3-1/README",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chmarm/Development/node-notes/views/index.jade",
+		"/Users/chmarm/Development/notes/MyNotes/src/main/webapp/WEB-INF/views/home.jsp",
+		"/Users/chmarm/Development/node-notes/views/layout.jade",
+		"/Users/chmarm/Development/bigdatamon/views/layout.jade",
+		"/Users/chmarm/Downloads/phstc-jquery-dateFormat-8e4b3da/jquery.dateFormat-1.0.js",
+		"/Users/chmarm/Downloads/mongodb-mongo-java-driver-2e9c33a/maven/maven-mongo-java-driver.xml",
+		"/Users/chmarm/Development/bigdatamon/public/js/index.js",
+		"/Users/chmarm/Dropbox/Backup/Code/notes/MyNotes/src/main/webapp/WEB-INF/spring/appServlet/data.xml",
+		"/Users/chmarm/Dropbox/Backup/Code/notes/MyNotes/src/main/java/com/chmarny/notes/data/CacheHelper.java",
+		"/Users/chmarm/Development/notes/MyNotes/src/main/webapp/WEB-INF/views/js/app.js",
+		"/Users/chmarm/Development/notes/MyNotes/src/main/webapp/WEB-INF/views/css/app.css",
+		"/Users/chmarm/Development/notes/MyNotes/src/main/webapp/WEB-INF/views/notes.html",
+		"/Users/chmarm/Development/bigdatamon/routes/index.js",
+		"/Users/chmarm/Development/bigdatamon/public/css/app.css",
+		"/Users/chmarm/Development/bigdatamon/views/index.jade",
+		"/Users/chmarm/Development/notes/MyNotes/src/main/webapp/WEB-INF/views/js/dep.js",
+		"/Users/chmarm/Downloads/akzhan-jwysiwyg-ee94f2c/test/basic.html",
+		"/Users/chmarm/Downloads/jquery-ui-1.8.18.custom/index.html",
+		"/Users/chmarm/Downloads/jquery-ui-1.8.18.custom/css/theme/jquery-ui-1.8.18.custom.css",
+		"/Users/chmarm/Downloads/akzhan-jwysiwyg-ee94f2c/test/jwysiwyg.html",
+		"/Users/chmarm/Development/notes/MyNotes/src/main/webapp/WEB-INF/views/css/theme/ui.css",
+		"/Users/chmarm/Development/notes/MyNotes/src/main/webapp/WEB-INF/views/home.html",
+		"/Users/chmarm/Development/notes.backup/MyNotes/src/main/java/com/chmarny/notes/domain/Note.java",
+		"/Users/chmarm/Development/notes.backup/MyNotes/src/main/java/com/chmarny/notes/service/SimpleNoteService.java",
+		"/Users/chmarm/Applications/GemFire/SampleCode/quickstart/quickstart/Querying.java",
+		"/Users/chmarm/Applications/GemFire/SampleCode/quickstart/quickstart/MultiGetFunction.java",
+		"/Users/chmarm/Applications/GemFire/SampleCode/quickstart/quickstart/DataPersistence.java",
+		"/Users/chmarm/Development/gf-notes/gfnotes/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml",
+		"/Users/chmarm/Applications/GemFire/SampleCode/tutorial/src/com/gemstone/gemfire/tutorial/model/PostID.java",
+		"/Users/chmarm/Applications/GemFire/SampleCode/tutorial/src/com/gemstone/gemfire/tutorial/model/Profile.java",
+		"/Users/chmarm/Applications/GemFire/SampleCode/tutorial/xml/persistent_server.xml",
+		"/Users/chmarm/Downloads/sawano-spring-examples-json-xml-ws-8ba04ab/src/test/java/se/sawano/spring/examples/jsonxmlws/RESTControllerTest.java",
+		"/Users/chmarm/Downloads/sawano-spring-examples-json-xml-ws-8ba04ab/src/main/java/se/sawano/spring/examples/jsonxmlws/RESTController.java",
+		"/Users/chmarm/Downloads/sawano-spring-examples-json-xml-ws-8ba04ab/src/main/java/se/sawano/spring/examples/jsonxmlws/User.java",
+		"/Users/chmarm/Development/notes/pom.xml",
+		"/Users/chmarm/Development/secure-notes/pom.xml",
+		"/Users/chmarm/Downloads/sawano-spring-examples-json-xml-ws-8ba04ab/pom.xml",
+		"/Users/chmarm/Downloads/JamesEarlDouglas-a-secure-restful-web-service-8fd97f9/pom.xml",
+		"/Users/chmarm/Downloads/JamesEarlDouglas-a-secure-restful-web-service-8fd97f9/README",
+		"/Users/chmarm/Development/gf-notes/gfnotes/pom.xml",
+		"/Users/chmarm/Downloads/spring-rest-example/spring-rest-example/pom.xml",
+		"/Users/chmarm/Downloads/spring-rest-example/spring-rest-example/src/main/webapp/WEB-INF/books-servlet.xml",
+		"/Users/chmarm/Downloads/spring-rest-example/spring-rest-example/src/main/webapp/WEB-INF/web.xml",
+		"/Users/chmarm/Development/spring-travel/server/src/main/java/org/springframework/samples/travel/domain/Amenity.java",
+		"/Users/chmarm/Applications/GemFire/SampleCode/helloworld/helloworld/SimpleCacheListener.java",
+		"/Users/chmarm/Applications/GemFire/SampleCode/helloworld/helloworld/HelloWorldConsumer.java",
+		"/Users/chmarm/Development/tri-api/app.js",
+		"/Users/chmarm/Development/tri-api/README.md",
+		"/Users/chmarm/Development/tri-api/data.js",
+		"/Users/chmarm/Applications/GemFire/SampleCode/helloworld/helloworld/HelloWorldProducer.java",
+		"/Users/chmarm/Development/tri-api/views/index.jade",
+		"/Users/chmarm/Development/tri-api/README",
+		"/Users/chmarm/Development/data-finder/app.js",
+		"/Users/chmarm/Development/data-finder/README",
+		"/Users/chmarm/Development/data-finder/views/index.jade",
+		"/Users/chmarm/Development/data-finder/routes/index.js",
+		"/Users/chmarm/Development/data-finder/package.json",
+		"/Users/chmarm/Development/data-finder/public/stylesheets/style.css",
+		"/Users/chmarm/Development/data-finder/views/layout.jade",
+		"/Users/chmarm/Development/bigdatamon/app.js",
+		"/Users/chmarm/Development/data-finder/load.js",
+		"/Users/chmarm/Development/data-finder/geo.js",
+		"/Users/chmarm/Development/bigdatamon/message-store.js",
+		"/Users/chmarm/Development/data-finder/config.js",
+		"/Users/chmarm/Development/data-finder/geojson.json",
+		"/Users/chmarm/Downloads/BenchmarkSQL-2.3.3/README",
+		"/Users/chmarm/Development/data-finder/sample.kml",
+		"/Users/chmarm/Development/data-finder/sample.json",
+		"/Users/chmarm/Development/mongo.txt",
+		"/Users/chmarm/Development/data-finder/env.js",
+		"/Users/chmarm/Development/testApp/app.js",
+		"/Users/chmarm/Development/express/lib/express.js",
+		"/Users/chmarm/Development/express/client.js",
+		"/Users/chmarm/Development/bigdatamon/message-provider.js",
+		"/Users/chmarm/Development/bigdatamon/bigdatamon.sublime-project",
+		"/Users/chmarm/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div.jHtmlArea .ToolBar ul li a.custom_disk_button \n{\n    background: url(img/disk.png) no-repeat;\n    background-position: 0 0;\n}",
+			"[\"cut\", \"copy\", \"paste\"]",
+			"ui-state",
+			"ui-state-selected",
+			"selectable",
+			"selected",
+			"ui-state-highlight",
+			"GeoModel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Volumes/PostgreSQL 9.1.3-1/README",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 25.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

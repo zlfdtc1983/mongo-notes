@@ -1,0 +1,45 @@
+div.container.ui-corner-all
+  div.header
+    div#header-title MyNotes
+    div.ui-widget
+      div#header-info.ui-state-highlight.ui-corner-all
+        p
+          span#header-info-icon.ui-icon.ui-icon-info
+          span#header-info-text Example app to illustrate different server-side data persistence models.
+  div.content
+    div.note
+      div.ui-widget
+        div.ui-state-active.ui-corner-all
+          div#note-box
+            h2#note-title Note Title
+            div#note-tags
+              span.ui-icon.ui-icon-tag 
+              span Tags:
+              input#note-tags-text
+            div#note-content-box
+              textarea#note-content
+            div#note-date
+              b Last Update:
+              span#note-data-value 
+            div#note-cmd
+              button#note-delete-button Delete
+              button#note-save-button Save
+            div.spacer 
+    div.list            
+      div.ui-widget
+        div.ui-state-default.ui-corner-left
+          h2#list-header
+            span.ui-icon.ui-icon-search 
+            Search Notes
+          div#list-search
+            input#list-search-text 
+      div.spacer-20 
+      div.ui-widget
+        div.ui-state-default.ui-corner-left
+          h2#list-header
+            span.ui-icon.ui-icon-clock
+            Recent Notes
+          ol#list-items 
+          div.spacer 
+          button#note-save-add Add
+          div.spacer 
