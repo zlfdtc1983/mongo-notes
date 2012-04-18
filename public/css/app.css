@@ -6,6 +6,9 @@
      background: #161616 url(img/bg-body.jpg) repeat left top;
      overflow: hidden;
   }
+  a {
+    color: #444;
+  }
   .container{
      position: relative;
      overflow: hidden;
@@ -13,6 +16,18 @@
      padding: 10px;
      width: 900px;
      background: #fff;
+     clear: both;
+  }
+  .footer{
+     position: relative;
+     margin: 20px auto;
+     padding: 0;
+     width: 900px;
+  }
+  .footer p {
+     padding: 2px;
+     color: #fff;
+     font: 1.3em "Arial", sans-serif; 
   }
   .header{
      float: left;

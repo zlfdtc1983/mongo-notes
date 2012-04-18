@@ -36,7 +36,8 @@ var noteStore = new NoteStore().init(appConfig.db.uri);
 app.get('/', function(req, res){
   res.render('index.jade', { 
         locals: {
-            title: appConfig.appName
+            title: appConfig.appName,
+            promo: appConfig.promo
         }
     });
 });
@@ -91,9 +92,23 @@ app.post('/v.1/notes/', function(req, res){
   });
 });
 
+// Reset
+app.get('/v.1/notes/reset/:code', function(req, res){
+  var resetCode = req.params.code;
+  var requiredCode = new Date().getDate();
+  if (parseInt(resetCode) ==  requiredCode){
+    noteStore.clearNotes(function(items){
+        res.writeHead(200, appConfig.header);
+        res.end(JSON.stringify(items));
+    });
+  }else{
+    res.redirect('/');
+  }
+});
+
 
 // Init the server
 app.listen(appConfig.app.port);
 
 // Confirm the load
-console.info("Server port %d in %s mode", appConfig.app.port, app.settings.env);
+console.info("Started: http://%s:%d/ in %s mode", appConfig.app.host, appConfig.app.port, app.settings.env);

@@ -33,7 +33,7 @@ $(document).ready(function(){
 	    queryInput = $("#list-search-text"),
 	    selectedItem = null,
 	    maxNumOfRecentNotes = 30,
-	    defaultMessage = "Example app to illustrate GemFire server-side data persistence",
+	    defaultMessage = "Example app only, do not put here any notes you would not mind being deleted.",
 	    availableTags = [];
 
 	function showMessage(text, alert){
@@ -225,6 +225,8 @@ $(document).ready(function(){
         	onblur: 'submit'
     });
 
+    // Set the default message
+    showMessage(defaultMessage);
 
 	// setup note editor
 	noteContent.htmlarea();
@@ -232,6 +234,7 @@ $(document).ready(function(){
 	// initialize recent list
 	initList();
 
+	// bind autocomplete after the initial setup
 	queryInput.autocomplete({
 		minLength: 2,
 		source: function(request, response) {

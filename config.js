@@ -1,6 +1,6 @@
 
 var ConfigProvider = function() {
-	this.appName = 'MongoNotes';
+	this.appName = 'Mongo Notes';
 	this.loadedOn = new Date();
 	this.locals = {};
 	this.app = {
@@ -14,6 +14,14 @@ var ConfigProvider = function() {
 		"Content-Type": "application/json",
 		"Access-Control-Allow-Origin": "*",
 		"X-Powered-By": "me"
+	};
+	this.promo = {
+		fullName: "Mark Chmarny",
+		githubUser: "mchmarny",
+		githubProject: "mongo-notes",
+		twitterUser: "mchmarny",
+		blogUrl: "http://mark.chmarny.com",
+		linkedInUrl: "http://www.linkedin.com/in/chmarny"
 	}
 };
 

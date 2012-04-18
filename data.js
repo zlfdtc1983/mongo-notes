@@ -1,8 +1,7 @@
 //dep and globals
 var mongoose = require('mongoose')
   , Schema = mongoose.Schema
-  , ObjectId = mongoose.Types.ObjectId
-  , maxNumOfNotes = 30;
+  , ObjectId = mongoose.Types.ObjectId;
 	
 // Constractor
 var NoteStore = function(){}
@@ -158,6 +157,17 @@ NoteStore.prototype.saveNote = function(noteIn, callback) {
 
 };
 
+// clearNotes
+NoteStore.prototype.clearNotes = function(callback) {
+
+	console.info('Clearing all notes: ' + new Date());
+
+	this.NoteModel.remove({}, function(error){
+		if (error) throw error;
+        callback();
+	}); //Message
+
+};
 
 
 

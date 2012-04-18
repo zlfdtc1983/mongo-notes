@@ -1,11 +1,11 @@
 div.container.ui-corner-all
   div.header
-    div#header-title MyNotes
+    div#header-title #{title}
     div.ui-widget
       div#header-info.ui-state-highlight.ui-corner-all
         p
           span#header-info-icon.ui-icon.ui-icon-info
-          span#header-info-text Example app to illustrate different server-side data persistence models.
+          span#header-info-text 
   div.content
     div.note
       div.ui-widget
@@ -43,3 +43,6 @@ div.container.ui-corner-all
           div.spacer 
           button#note-save-add Add
           div.spacer 
+div.footer
+  p Project by <a href='#{promo.linkedInUrl}' target='_new'>#{promo.fullName}</a> | <a href='https://twitter.com/#!/#{promo.twitterUser}' target='_new'>@#{promo.twitterUser}</a> | <a href='#{promo.blogUrl}' target='_new'>Blog</a>
+  p Source code available at <a href='https://github.com/#{promo.githubUser}/#{promo.githubProject}' target='_new'>GitHub</a>.

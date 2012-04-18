@@ -2,8 +2,19 @@
     "name": "mongo-notes"
   , "version": "0.0.1"
   , "private": true
+  , "maintainers":[ {
+	   "name": "Mark Chmarny",
+	   "email": "mark@chmarny.com",
+	  " web": "http://mark.chmarny.com"
+	}]
+  , "licenses": [ {
+	       "type": "GPLv2",
+	       "url": "http://www.example.com/licenses/gpl.html"
+  }]
   , "dependencies": {
       "express": "2.5.8"
-    , "jade": ">= 0.0.1"
+    , "jade": ">= 0.24.0"
+    , "mongodb": ">= 0.9.6-7"
+    , "mongoose": ">= 2.5.14"
   }
 }
