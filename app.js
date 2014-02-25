@@ -1,17 +1,23 @@
 
 // Dependencies
 var express = require('express')
+  , fs = require('fs')
   , routes = require('./routes')
   , ConfigProvider = require('./config').ConfigProvider
   , NoteStore = require('./data').NoteStore;
 
+var privateKey = fs.readFileSync('key.pem').toString();
+var certificate = fs.readFileSync('cert.pem').toString();
+
 // Create app
+//var app = module.exports = express.createServer({key: privateKey, cert: certificate});
 var app = module.exports = express.createServer();
 
 // Configuration
 app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
+  app.set("jsonp callback", true);	// Added for jsonp 
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(app.router);
@@ -37,7 +43,6 @@ app.get('/', function(req, res){
   res.render('index.jade', { 
         locals: {
             title: appConfig.appName,
-            promo: appConfig.promo
         }
     });
 });
@@ -71,6 +76,7 @@ app.get('/v.1/notes/:id', function(req, res){
   noteStore.getNote(req.params.id, function(items){
       res.writeHead(200, appConfig.header);
       res.end(JSON.stringify(items));
+//      res.jsonp(items);
   });
 });
 

@@ -12,17 +12,10 @@ var ConfigProvider = function() {
 	};
 	this.header = {
 		"Content-Type": "application/json",
-		"Access-Control-Allow-Origin": "*",
-		"X-Powered-By": "me"
+		"X-Requested-With" : true			
+//		"Access-Control-Allow-Origin": "*", 
+//		"X-Powered-By": "me"
 	};
-	this.promo = {
-		fullName: "Mark Chmarny",
-		githubUser: "mchmarny",
-		githubProject: "mongo-notes",
-		twitterUser: "mchmarny",
-		blogUrl: "http://mark.chmarny.com",
-		linkedInUrl: "http://www.linkedin.com/in/chmarny"
-	}
 };
 
 ConfigProvider.prototype.init = function() {
